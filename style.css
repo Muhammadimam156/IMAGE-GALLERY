@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+body{
+    background-color: rgb(0, 0, 0);
+}
+.heading{
+text-align: center;
+font-weight: 600;
+font-family: syne,sans-serif ;
+border-bottom:5px solid whitesmoke ;
+border-radius: 20px;
+background-color: rgba(0, 255, 255, 0.621);
+padding-top: 10px;
+box-sizing: border-box;
+color: white;
+}
+.image-box{
+    margin-left: 30%;
+    margin-top: 10px;
+ 
+    
+}
+
+.img{
+    width: 15%;
+    height: 80vh;
+    object-fit: cover;
+    transition: 1s;
+     border: 2px solid grey;
+   filter: grayscale(80%);
+   /* filter: blur(2px); */
+   /* filter: drop-shadow(10px grey ) */
+}
+.img:hover{
+    width: 25%;
+    transform: translate(20px,0px,20px,0);
+    transform: scale(0.9);
+    border-radius: 10px;
+    cursor: pointer; 
+    /* filter: blur(0px); */
+    filter: grayscale(0%);
+
+}
